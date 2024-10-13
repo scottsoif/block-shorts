@@ -17,11 +17,12 @@ chrome.storage.sync.get(["blockShortsEnabled"], (result) => {
   } else {
     const blockShortsEnabled = result.blockShortsEnabled ?? true; // Default to true if not set
     if (blockShortsEnabled) {
+      const currentUrl = window.location.href;
       handleNavigation();
       // Backup URL check every 5 seconds (set only once)
-      if (currentUrl.includes("facebook.com/reel")) {
+      if (currentUrl.includes("facebook.com")) {
         setInterval(handleNavigation, 3000);
-      } else if (currentUrl.includes("youtube.com/shorts")) {
+      } else if (currentUrl.includes("youtube.com")) {
         setInterval(handleNavigation, 5000);
       }
     }

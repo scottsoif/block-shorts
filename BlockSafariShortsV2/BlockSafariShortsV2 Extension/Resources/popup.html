@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="popup.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="popup.js"></script>
+
+
+    <title>Block YouTube Shorts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .toggle-switch {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-left: 10px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
-    <strong>Hello World!</strong>
+    <h2>Block YouTube Shorts</h2>
+
+    <!-- Logo -->
+    <img src="https://nerapp-static-files.s3.amazonaws.com/logo-images/logo_wide_v4_dm.png" alt="Logo" class="logo">
+
+
+    <!-- Footer with credits -->
+    <div class="footer">
+        Extension made by <a href="https://scottsoifer.com" target="_blank">Scott Soifer</a>
+    </div>
+
 </body>
+
 </html>

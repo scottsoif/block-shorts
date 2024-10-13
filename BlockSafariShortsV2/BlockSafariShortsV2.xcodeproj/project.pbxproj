@@ -611,7 +611,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsExt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -641,7 +641,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsExt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -661,7 +661,8 @@
 				DEVELOPMENT_TEAM = 24HUU63Z52;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockSafariShortsV2/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BlockSafariShortsV2;
+				INFOPLIST_KEY_CFBundleDisplayName = "No Shorts";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -679,7 +680,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsExt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -698,7 +699,8 @@
 				DEVELOPMENT_TEAM = 24HUU63Z52;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockSafariShortsV2/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BlockSafariShortsV2;
+				INFOPLIST_KEY_CFBundleDisplayName = "No Shorts";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -716,7 +718,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsExt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -735,7 +737,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsExt.BlockSafariShortsV2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -755,7 +757,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsExt.BlockSafariShortsV2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -773,7 +775,7 @@
 				DEVELOPMENT_TEAM = 24HUU63Z52;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsExt.BlockSafariShortsV2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -791,7 +793,7 @@
 				DEVELOPMENT_TEAM = 24HUU63Z52;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsExt.BlockSafariShortsV2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41C900C2CBC49EE001BAAC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C900B2CBC49EE001BAAC2 /* AppDelegate.swift */; };
+		F41C90102CBC49EE001BAAC2 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F41C900E2CBC49EE001BAAC2 /* Main.html */; };
+		F41C90122CBC49EE001BAAC2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C90112CBC49EE001BAAC2 /* Icon.png */; };
+		F41C90142CBC49EE001BAAC2 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F41C90132CBC49EE001BAAC2 /* Style.css */; };
+		F41C90162CBC49EE001BAAC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C90152CBC49EE001BAAC2 /* SceneDelegate.swift */; };
+		F41C90182CBC49EE001BAAC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C90172CBC49EE001BAAC2 /* ViewController.swift */; };
+		F41C901B2CBC49EE001BAAC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41C90192CBC49EE001BAAC2 /* LaunchScreen.storyboard */; };
+		F41C901E2CBC49EE001BAAC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41C901C2CBC49EE001BAAC2 /* Main.storyboard */; };
+		F41C902A2CBC49F0001BAAC2 /* BlockSafariShortsV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C90292CBC49F0001BAAC2 /* BlockSafariShortsV2Tests.swift */; };
+		F41C90342CBC49F0001BAAC2 /* BlockSafariShortsV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C90332CBC49F0001BAAC2 /* BlockSafariShortsV2UITests.swift */; };
+		F41C90362CBC49F0001BAAC2 /* BlockSafariShortsV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C90352CBC49F0001BAAC2 /* BlockSafariShortsV2UITestsLaunchTests.swift */; };
+		F41C903C2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F41C903B2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F41C90412CBC49F0001BAAC2 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C90402CBC49F0001BAAC2 /* SafariWebExtensionHandler.swift */; };
+		F41C90442CBC49F0001BAAC2 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F41C90432CBC49F0001BAAC2 /* _locales */; };
+		F41C90462CBC49F0001BAAC2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F41C90452CBC49F0001BAAC2 /* images */; };
+		F41C90482CBC49F0001BAAC2 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F41C90472CBC49F0001BAAC2 /* manifest.json */; };
+		F41C904A2CBC49F0001BAAC2 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F41C90492CBC49F0001BAAC2 /* background.js */; };
+		F41C904C2CBC49F0001BAAC2 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F41C904B2CBC49F0001BAAC2 /* content.js */; };
+		F41C904E2CBC49F0001BAAC2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F41C904D2CBC49F0001BAAC2 /* popup.html */; };
+		F41C90502CBC49F0001BAAC2 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F41C904F2CBC49F0001BAAC2 /* popup.css */; };
+		F41C90522CBC49F0001BAAC2 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F41C90512CBC49F0001BAAC2 /* popup.js */; };
+		F41C90542CBC49F0001BAAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41C901F2CBC49F0001BAAC2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F41C90262CBC49F0001BAAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41C90002CBC49EE001BAAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41C90072CBC49EE001BAAC2;
+			remoteInfo = BlockSafariShortsV2;
+		};
+		F41C90302CBC49F0001BAAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41C90002CBC49EE001BAAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41C90072CBC49EE001BAAC2;
+			remoteInfo = BlockSafariShortsV2;
+		};
+		F41C903D2CBC49F0001BAAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41C90002CBC49EE001BAAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41C903A2CBC49F0001BAAC2;
+			remoteInfo = "BlockSafariShortsV2 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F41C905A2CBC49F0001BAAC2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F41C903C2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F41C90082CBC49EE001BAAC2 /* BlockSafariShortsV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockSafariShortsV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41C900B2CBC49EE001BAAC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F41C900F2CBC49EE001BAAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F41C90112CBC49EE001BAAC2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F41C90132CBC49EE001BAAC2 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F41C90152CBC49EE001BAAC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F41C90172CBC49EE001BAAC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F41C901A2CBC49EE001BAAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F41C901D2CBC49EE001BAAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F41C901F2CBC49F0001BAAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F41C90202CBC49F0001BAAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41C90252CBC49F0001BAAC2 /* BlockSafariShortsV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockSafariShortsV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41C90292CBC49F0001BAAC2 /* BlockSafariShortsV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockSafariShortsV2Tests.swift; sourceTree = "<group>"; };
+		F41C902F2CBC49F0001BAAC2 /* BlockSafariShortsV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockSafariShortsV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41C90332CBC49F0001BAAC2 /* BlockSafariShortsV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockSafariShortsV2UITests.swift; sourceTree = "<group>"; };
+		F41C90352CBC49F0001BAAC2 /* BlockSafariShortsV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockSafariShortsV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F41C903B2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlockSafariShortsV2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41C90402CBC49F0001BAAC2 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F41C90432CBC49F0001BAAC2 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		F41C90452CBC49F0001BAAC2 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		F41C90472CBC49F0001BAAC2 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		F41C90492CBC49F0001BAAC2 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		F41C904B2CBC49F0001BAAC2 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		F41C904D2CBC49F0001BAAC2 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		F41C904F2CBC49F0001BAAC2 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		F41C90512CBC49F0001BAAC2 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		F41C90532CBC49F0001BAAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F41C90052CBC49EE001BAAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C90222CBC49F0001BAAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C902C2CBC49F0001BAAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C90382CBC49F0001BAAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F41C8FFF2CBC49EE001BAAC2 = {
+			isa = PBXGroup;
+			children = (
+				F41C900A2CBC49EE001BAAC2 /* BlockSafariShortsV2 */,
+				F41C90282CBC49F0001BAAC2 /* BlockSafariShortsV2Tests */,
+				F41C90322CBC49F0001BAAC2 /* BlockSafariShortsV2UITests */,
+				F41C903F2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension */,
+				F41C90092CBC49EE001BAAC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F41C90092CBC49EE001BAAC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41C90082CBC49EE001BAAC2 /* BlockSafariShortsV2.app */,
+				F41C90252CBC49F0001BAAC2 /* BlockSafariShortsV2Tests.xctest */,
+				F41C902F2CBC49F0001BAAC2 /* BlockSafariShortsV2UITests.xctest */,
+				F41C903B2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41C900A2CBC49EE001BAAC2 /* BlockSafariShortsV2 */ = {
+			isa = PBXGroup;
+			children = (
+				F41C900B2CBC49EE001BAAC2 /* AppDelegate.swift */,
+				F41C90152CBC49EE001BAAC2 /* SceneDelegate.swift */,
+				F41C90172CBC49EE001BAAC2 /* ViewController.swift */,
+				F41C90192CBC49EE001BAAC2 /* LaunchScreen.storyboard */,
+				F41C901C2CBC49EE001BAAC2 /* Main.storyboard */,
+				F41C901F2CBC49F0001BAAC2 /* Assets.xcassets */,
+				F41C90202CBC49F0001BAAC2 /* Info.plist */,
+				F41C900D2CBC49EE001BAAC2 /* Resources */,
+			);
+			path = BlockSafariShortsV2;
+			sourceTree = "<group>";
+		};
+		F41C900D2CBC49EE001BAAC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F41C900E2CBC49EE001BAAC2 /* Main.html */,
+				F41C90112CBC49EE001BAAC2 /* Icon.png */,
+				F41C90132CBC49EE001BAAC2 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F41C90282CBC49F0001BAAC2 /* BlockSafariShortsV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F41C90292CBC49F0001BAAC2 /* BlockSafariShortsV2Tests.swift */,
+			);
+			path = BlockSafariShortsV2Tests;
+			sourceTree = "<group>";
+		};
+		F41C90322CBC49F0001BAAC2 /* BlockSafariShortsV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F41C90332CBC49F0001BAAC2 /* BlockSafariShortsV2UITests.swift */,
+				F41C90352CBC49F0001BAAC2 /* BlockSafariShortsV2UITestsLaunchTests.swift */,
+			);
+			path = BlockSafariShortsV2UITests;
+			sourceTree = "<group>";
+		};
+		F41C903F2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F41C90402CBC49F0001BAAC2 /* SafariWebExtensionHandler.swift */,
+				F41C90532CBC49F0001BAAC2 /* Info.plist */,
+				F41C90422CBC49F0001BAAC2 /* Resources */,
+			);
+			path = "BlockSafariShortsV2 Extension";
+			sourceTree = "<group>";
+		};
+		F41C90422CBC49F0001BAAC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F41C90432CBC49F0001BAAC2 /* _locales */,
+				F41C90452CBC49F0001BAAC2 /* images */,
+				F41C90472CBC49F0001BAAC2 /* manifest.json */,
+				F41C90492CBC49F0001BAAC2 /* background.js */,
+				F41C904B2CBC49F0001BAAC2 /* content.js */,
+				F41C904D2CBC49F0001BAAC2 /* popup.html */,
+				F41C904F2CBC49F0001BAAC2 /* popup.css */,
+				F41C90512CBC49F0001BAAC2 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F41C90072CBC49EE001BAAC2 /* BlockSafariShortsV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41C905B2CBC49F0001BAAC2 /* Build configuration list for PBXNativeTarget "BlockSafariShortsV2" */;
+			buildPhases = (
+				F41C90042CBC49EE001BAAC2 /* Sources */,
+				F41C90052CBC49EE001BAAC2 /* Frameworks */,
+				F41C90062CBC49EE001BAAC2 /* Resources */,
+				F41C905A2CBC49F0001BAAC2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41C903E2CBC49F0001BAAC2 /* PBXTargetDependency */,
+			);
+			name = BlockSafariShortsV2;
+			productName = BlockSafariShortsV2;
+			productReference = F41C90082CBC49EE001BAAC2 /* BlockSafariShortsV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F41C90242CBC49F0001BAAC2 /* BlockSafariShortsV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41C905E2CBC49F0001BAAC2 /* Build configuration list for PBXNativeTarget "BlockSafariShortsV2Tests" */;
+			buildPhases = (
+				F41C90212CBC49F0001BAAC2 /* Sources */,
+				F41C90222CBC49F0001BAAC2 /* Frameworks */,
+				F41C90232CBC49F0001BAAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41C90272CBC49F0001BAAC2 /* PBXTargetDependency */,
+			);
+			name = BlockSafariShortsV2Tests;
+			productName = BlockSafariShortsV2Tests;
+			productReference = F41C90252CBC49F0001BAAC2 /* BlockSafariShortsV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F41C902E2CBC49F0001BAAC2 /* BlockSafariShortsV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41C90612CBC49F0001BAAC2 /* Build configuration list for PBXNativeTarget "BlockSafariShortsV2UITests" */;
+			buildPhases = (
+				F41C902B2CBC49F0001BAAC2 /* Sources */,
+				F41C902C2CBC49F0001BAAC2 /* Frameworks */,
+				F41C902D2CBC49F0001BAAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41C90312CBC49F0001BAAC2 /* PBXTargetDependency */,
+			);
+			name = BlockSafariShortsV2UITests;
+			productName = BlockSafariShortsV2UITests;
+			productReference = F41C902F2CBC49F0001BAAC2 /* BlockSafariShortsV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F41C903A2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41C90572CBC49F0001BAAC2 /* Build configuration list for PBXNativeTarget "BlockSafariShortsV2 Extension" */;
+			buildPhases = (
+				F41C90372CBC49F0001BAAC2 /* Sources */,
+				F41C90382CBC49F0001BAAC2 /* Frameworks */,
+				F41C90392CBC49F0001BAAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlockSafariShortsV2 Extension";
+			productName = "BlockSafariShortsV2 Extension";
+			productReference = F41C903B2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F41C90002CBC49EE001BAAC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F41C90072CBC49EE001BAAC2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F41C90242CBC49F0001BAAC2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F41C90072CBC49EE001BAAC2;
+					};
+					F41C902E2CBC49F0001BAAC2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F41C90072CBC49EE001BAAC2;
+					};
+					F41C903A2CBC49F0001BAAC2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F41C90032CBC49EE001BAAC2 /* Build configuration list for PBXProject "BlockSafariShortsV2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F41C8FFF2CBC49EE001BAAC2;
+			productRefGroup = F41C90092CBC49EE001BAAC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41C90072CBC49EE001BAAC2 /* BlockSafariShortsV2 */,
+				F41C90242CBC49F0001BAAC2 /* BlockSafariShortsV2Tests */,
+				F41C902E2CBC49F0001BAAC2 /* BlockSafariShortsV2UITests */,
+				F41C903A2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F41C90062CBC49EE001BAAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C90122CBC49EE001BAAC2 /* Icon.png in Resources */,
+				F41C901E2CBC49EE001BAAC2 /* Main.storyboard in Resources */,
+				F41C901B2CBC49EE001BAAC2 /* LaunchScreen.storyboard in Resources */,
+				F41C90102CBC49EE001BAAC2 /* Main.html in Resources */,
+				F41C90542CBC49F0001BAAC2 /* Assets.xcassets in Resources */,
+				F41C90142CBC49EE001BAAC2 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C90232CBC49F0001BAAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C902D2CBC49F0001BAAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C90392CBC49F0001BAAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C904A2CBC49F0001BAAC2 /* background.js in Resources */,
+				F41C90502CBC49F0001BAAC2 /* popup.css in Resources */,
+				F41C904E2CBC49F0001BAAC2 /* popup.html in Resources */,
+				F41C90462CBC49F0001BAAC2 /* images in Resources */,
+				F41C90482CBC49F0001BAAC2 /* manifest.json in Resources */,
+				F41C90442CBC49F0001BAAC2 /* _locales in Resources */,
+				F41C904C2CBC49F0001BAAC2 /* content.js in Resources */,
+				F41C90522CBC49F0001BAAC2 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F41C90042CBC49EE001BAAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C90182CBC49EE001BAAC2 /* ViewController.swift in Sources */,
+				F41C900C2CBC49EE001BAAC2 /* AppDelegate.swift in Sources */,
+				F41C90162CBC49EE001BAAC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C90212CBC49F0001BAAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C902A2CBC49F0001BAAC2 /* BlockSafariShortsV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C902B2CBC49F0001BAAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C90342CBC49F0001BAAC2 /* BlockSafariShortsV2UITests.swift in Sources */,
+				F41C90362CBC49F0001BAAC2 /* BlockSafariShortsV2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C90372CBC49F0001BAAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C90412CBC49F0001BAAC2 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F41C90272CBC49F0001BAAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41C90072CBC49EE001BAAC2 /* BlockSafariShortsV2 */;
+			targetProxy = F41C90262CBC49F0001BAAC2 /* PBXContainerItemProxy */;
+		};
+		F41C90312CBC49F0001BAAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41C90072CBC49EE001BAAC2 /* BlockSafariShortsV2 */;
+			targetProxy = F41C90302CBC49F0001BAAC2 /* PBXContainerItemProxy */;
+		};
+		F41C903E2CBC49F0001BAAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41C903A2CBC49F0001BAAC2 /* BlockSafariShortsV2 Extension */;
+			targetProxy = F41C903D2CBC49F0001BAAC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F41C900E2CBC49EE001BAAC2 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41C900F2CBC49EE001BAAC2 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F41C90192CBC49EE001BAAC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41C901A2CBC49EE001BAAC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F41C901C2CBC49EE001BAAC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41C901D2CBC49EE001BAAC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F41C90552CBC49F0001BAAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F41C90562CBC49F0001BAAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F41C90582CBC49F0001BAAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24HUU63Z52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockSafariShortsV2 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BlockSafariShortsV2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F41C90592CBC49F0001BAAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24HUU63Z52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockSafariShortsV2 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BlockSafariShortsV2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F41C905C2CBC49F0001BAAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24HUU63Z52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockSafariShortsV2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockSafariShortsV2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F41C905D2CBC49F0001BAAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24HUU63Z52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockSafariShortsV2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockSafariShortsV2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F41C905F2CBC49F0001BAAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24HUU63Z52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockSafariShortsV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockSafariShortsV2";
+			};
+			name = Debug;
+		};
+		F41C90602CBC49F0001BAAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24HUU63Z52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockSafariShortsV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockSafariShortsV2";
+			};
+			name = Release;
+		};
+		F41C90622CBC49F0001BAAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24HUU63Z52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockSafariShortsV2;
+			};
+			name = Debug;
+		};
+		F41C90632CBC49F0001BAAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24HUU63Z52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdevs.blockshortsV2.BlockSafariShortsV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockSafariShortsV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F41C90032CBC49EE001BAAC2 /* Build configuration list for PBXProject "BlockSafariShortsV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C90552CBC49F0001BAAC2 /* Debug */,
+				F41C90562CBC49F0001BAAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41C90572CBC49F0001BAAC2 /* Build configuration list for PBXNativeTarget "BlockSafariShortsV2 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C90582CBC49F0001BAAC2 /* Debug */,
+				F41C90592CBC49F0001BAAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41C905B2CBC49F0001BAAC2 /* Build configuration list for PBXNativeTarget "BlockSafariShortsV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C905C2CBC49F0001BAAC2 /* Debug */,
+				F41C905D2CBC49F0001BAAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41C905E2CBC49F0001BAAC2 /* Build configuration list for PBXNativeTarget "BlockSafariShortsV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C905F2CBC49F0001BAAC2 /* Debug */,
+				F41C90602CBC49F0001BAAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41C90612CBC49F0001BAAC2 /* Build configuration list for PBXNativeTarget "BlockSafariShortsV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C90622CBC49F0001BAAC2 /* Debug */,
+				F41C90632CBC49F0001BAAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F41C90002CBC49EE001BAAC2 /* Project object */;
+}

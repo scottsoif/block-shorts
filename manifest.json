@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Block YouTube Shorts",
   "version": "1.0",
   "description": "Chrome extension to block YouTube Shorts and Facebook Reels",

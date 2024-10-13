@@ -1,19 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "Block Shorts",
+  "name": "Block YouTube Shorts",
   "version": "1.0",
-  "description": "Chrome extension to block YouTube/Facebook Shorts",
-  "permissions": ["tabs", "webNavigation", "activeTab"],
+  "description": "Chrome extension to block YouTube Shorts and Facebook Reels",
+  "permissions": ["storage", "activeTab", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "logo_v4.png"
+    }
+  },
   "content_scripts": [
     {
-      "matches": ["*://www.youtube.com/*"],
+      "matches": ["*://www.youtube.com/*", "*://*.facebook.com/*"],
       "js": ["content.js"],
       "run_at": "document_end"
     }
   ],
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "128": "logo_v4.png"
   }
 }

@@ -10,14 +10,29 @@
       "128": "logo_v4.png"
     }
   },
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
-      "matches": ["*://www.youtube.com/*", "*://*.facebook.com/*"],
+      "matches": [
+        "*://www.youtube.com/*",
+        "*://*.facebook.com/*",
+        "*://*.github.com/*"
+      ],
       "js": ["content.js"],
       "run_at": "document_end"
     }
   ],
   "icons": {
     "128": "logo_v4.png"
+  },
+  "commands": {
+    "toggle_viewed_files": {
+      "suggested_key": {
+        "default": "Alt+V"
+      },
+      "description": "Toggle viewed files in GitHub pull requests"
+    }
   }
 }

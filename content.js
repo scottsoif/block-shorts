@@ -78,3 +78,19 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     );
   }
 });
+
+// Listen for messages from the background script
+
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.action === "toggleViewedFiles") {
+    // Locate the "Viewed files" checkbox and toggle it
+    const viewedFilesCheckbox = document.querySelector(
+      ".js-viewed-files-toggle"
+    );
+    if (viewedFilesCheckbox) {
+      viewedFilesCheckbox.click();
+    } else {
+      console.log("Viewed files checkbox not found");
+    }
+  }
+});
